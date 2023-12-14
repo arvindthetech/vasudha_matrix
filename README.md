@@ -17,7 +17,7 @@ Vasudha Matrix is a sustainability platform developed by Arvind Kumar Patel and 
 As of now, the code is not available for public use as it is part of our startup. However, you can visit our website to learn more about Vashudha Matrix and its features:
 
 ## Visit Vasudha Matrix
-- Vasudha Matrix ([VM](https://arvindthetech.github.io/vasudha_matrix/))
+- Vasudha Matrix ([Link to Website](https://arvindthetech.github.io/vasudha_matrix/))
 
 ## Getting Started
 If you're interested in collaborating or learning more about our project, feel free to reach out to us.
@@ -27,5 +27,5 @@ We have exciting plans for the future of Vashudha Matrix. Stay tuned for upcomin
 
 ## License
 This project is not currently licensed for public use. For inquiries about licensing or collaboration, please contact us.
-- Arvind Kumar Patel ([Contact me](patelkumararvind1234@gmail.com))
-- Adarsh Singh ([Contact me](mailto:email.adarshsingh@gmail.com))
+- Arvind Kumar Patel [Contact me](patelkumararvind1234@gmail.com)
+- Adarsh Singh [Contact me](mailto:email.adarshsingh@gmail.com)
