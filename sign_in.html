@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Please Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="./css&js/script.js"></script>
+    <script src="https://kit.fontawesome.com/1bc6a5549a.js" crossorigin="anonymous"></script>
+    <style>
+        .cont{
+            background-color:rgb(204, 220, 207);
+        }
+        .div_1{
+            display:grid;
+            justify-content: center;
+            align-items: center;
+            height: 300px;
+            width: 300px;
+            /* border-radius: 5%; */
+            position:relative;
+            top: 150px;
+            /* border: solid 2px rgb(0, 0, 0); */
+        }
+
+        @media(max-width:780px){
+            .div_1{
+              border: none;
+            }
+        }
+    </style>
+</head>
+<body class="cont">
+    <div id="header"></div>
+    <div class="div_1 container ">
+        <div class="div_21">
+            <h2 style="text-align: center;">Login</h2>
+        </div>
+        <div class="div_22">
+            <div class="div_31">
+                <label for="user_id">Username</label>
+                <input type="text" name="user_id" id="user_id" class="form-control" placeholder="Enter e-mail as username">    
+            </div>
+            <div class="div_32">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" class="form-control">
+            </div>
+        </div>
+        <div class="div_23">
+            <button type="button" class="btn btn-primary">Login</button>
+            <a href="./sign_up.html"><button type="button" class="btn btn-outline-secondary">Create New Account</button></a>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

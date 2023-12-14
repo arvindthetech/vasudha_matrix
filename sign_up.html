@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VM-Create Account</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="./css&js/script.js"></script>
+    <script src="https://kit.fontawesome.com/1bc6a5549a.js" crossorigin="anonymous"></script>
+    <style>
+        .cont{
+            background-color: rgb(204, 220, 207);
+        }
+
+        .div-form{
+            height: 620px;
+            width: 600px;
+            /* border: solid 2px black;
+            border-radius: 3%; */
+            position: relative;
+            top: 50px;
+        }
+        @media(max-width:780px){
+            .div-form{
+                height: 800px;
+                width: 600;
+                border: none;
+            }
+        }
+
+        @media(max-width:575px){
+            .my_nav{
+                width: 600px;
+            }
+            hr{
+                width: 600px;
+            }
+        }
+    </style>
+</head>
+<body class="cont">
+    <div id="header"></div>
+    <div class="container div-form ">
+        <div class="mb-4 mt-3 ">
+            <div>
+                <h2 style="text-align: center;" class="mb-3">Vasudha Matrix</h2>
+            </div>
+            <div>
+                <h5 style="text-align: center;">Create New Account at Vasudha Matrix</h5>
+            </div>
+        </div>
+        <div>
+            <div>
+                <div class="form-floating mb-3 col-12 ">
+                    <input type="text" class="form-control" name="naam" id="naam" placeholder="Abhishek Yadav">
+                    <label for="naam">Company Name</label>
+                </div>
+            </div>
+            <div class="row g-3 mb-3 ">
+                <div class="form-floating col-4">
+                    <input type="number" class="form-control" name="phone_no" id="phone_no" placeholder="76*****471">
+                    <label for="phone_no">Contact No</label>
+                </div>
+                <div class="form-floating col-8">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="abc@gmail.com">
+                    <label for="email">Email</label>
+                </div>
+                <div class="form-floating col-4">
+                    <input type="date" class="form-control" id="estd" name="estd">
+                    <label for="estd">Estd. Date</label>
+                </div>
+                <div class="form-floating col-4">
+                    <select class="form-select" id="company_type">
+                        <option selected>Select Type</option>
+                        <option value="1">StartUp</option>
+                        <option value="2">Small Business</option>
+                        <option value="3">Other</option>
+                      </select>
+                      <label for="company_type">Company Type</label> 
+                </div>
+                <div class="form-floating col-4">
+                    <select class="form-select" id="sector">
+                        <option selected>Select Sector</option>
+                        <option value="1">Private</option>
+                        <option value="2">Public</option>
+                        <option value="3">Other</option>
+                      </select>
+                      <label for="sector">Company Sector</label>
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Address</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="420 manash-nagar">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">City</label>
+                    <input type="text" class="form-control" id="inputCity" placeholder="Ikauna">
+                </div>
+                <div class="col-md-3">
+                    <label for="inputState" class="form-label">State</label>
+                    <select id="inputState" class="form-select">
+                      <option selected>Choose</option>
+                      <option>UP</option>
+                      <option>Bihar</option>
+                      <option>other</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <label for="inputZip" class="form-label">Zip</label>
+                    <input type="text" class="form-control" id="inputZip" placeholder="271845">
+                </div>
+            </div>
+        </div>
+        <div class="m-3 row ">
+            <button type="button" class="btn btn-primary m-1 col-auto">Submit</button>
+            <button type="button" class="btn btn-outline-secondary m-1 col-auto ">Reset All</button>
+            <a href="./sign_in.html" class="col-auto "><button type="button" class="btn btn-outline-success m-1 col-auto " href="./login.html">Login</button></a>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
