@@ -27,5 +27,5 @@ We have exciting plans for the future of Vashudha Matrix. Stay tuned for upcomin
 
 ## License
 This project is not currently licensed for public use. For inquiries about licensing or collaboration, please contact us.
-- Arvind Kumar Patel [Contact me](patelkumararvind1234@gmail.com)
+- Arvind Kumar Patel [Contact me](mailto:patelkumararvind1234@gmail.com)
 - Adarsh Singh [Contact me](mailto:email.adarshsingh@gmail.com)
